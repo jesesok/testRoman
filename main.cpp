@@ -32,7 +32,7 @@ int main() {
                 cout << "3. Cleaning products" << endl;
                 cin >> clean;
                 break;
-            deafult:
+            default:
                 cout << "You enter wrong item" << endl;
                 break;
         }
