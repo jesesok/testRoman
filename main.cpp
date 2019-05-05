@@ -7,8 +7,9 @@ using namespace std;
 
 
 int main(){
-    string a="5";
-    string b="5";
-    cout<<a+b<<endl;
-    cout<<"PRETos"<<endl;
+    int arr[10];
+    for (int i = 0; i <10 ; ++i) {
+        arr[i]=rand();
+
+    }
 }
