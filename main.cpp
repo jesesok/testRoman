@@ -8,8 +8,8 @@ using namespace std;
 
 int main(){
     int arr[10];
-    for (int i = 0; i <10 ; ++i) {
-        arr[i]=rand();
+    for (int & i : arr) {
+        i=rand();
         cout<<"asdf"<<'\t'<<endl;
     }
 }
